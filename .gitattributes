@@ -1,0 +1,2 @@
+lib/** linguist-vendored
+*.abi linguist-language=JSON

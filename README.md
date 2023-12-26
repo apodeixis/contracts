@@ -13,3 +13,11 @@ forge create \
     --constructor-args <your_owner_address> \
     src/Posts.sol:Posts
 ```
+
+### ABI
+
+Extract pretty-formatted JSON with the `ABI` of the Posts.sol contract.
+
+```bash
+forge build --silent && jq '.abi' ./out/Posts.sol/Posts.json > ./out/Posts.sol/Posts.abi
+```

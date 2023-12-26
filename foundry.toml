@@ -2,3 +2,7 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+
+[rpc_endpoints]
+polygon = "https://polygon-mainnet.infura.io/v3/${API_KEY_INFURA}"
+sepolia = "https://sepolia.infura.io/v3/${API_KEY_INFURA}"
